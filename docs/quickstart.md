@@ -22,7 +22,16 @@ uv sync
 source .venv/bin/activate  # Linux / macOS
 ```
 
-## 3. Start the Application
+## 3. Prepare the Dataset
+
+1. Download the [Student Performance Dataset](https://www.kaggle.com/datasets/nabeelqureshitiii/student-performance-dataset) from Kaggle.
+2. Exract the `student_performance.csv` file.
+3. Move the downloaded file to `data/raw` directory.
+
+> [!NOTE]
+> See the [Dataset](../data/README.md) for licensing and author information.
+
+## 4. Start the Application
 
 ```bash
 python -m main
