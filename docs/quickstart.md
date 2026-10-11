@@ -19,7 +19,7 @@ cd student-performance
 ```bash
 uv sync
 .venv\Scripts\Activate.ps1 # Windows
-source .venv\bin\activate  # Linux / macOS
+source .venv/bin/activate  # Linux / macOS
 ```
 
 ## 3. Start the Application
